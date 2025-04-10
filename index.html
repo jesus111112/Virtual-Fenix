@@ -633,7 +633,7 @@
     </style>
 </head>
 <body>
-    
+    <p id="resultado"<p>
     <img src="gojo2.jpg" alt="Imagen izquierda" class="imagen-izquierda">
     <img src="sukuna2.jpg" alt="Imagen derecha" class="imagen-derecha">
     <audio controls autoplay loop>
@@ -781,7 +781,7 @@
     document.getElementById('productGrid').style.display = 'grid';
     mostrarItems(imper_vinculos);
     }
-
+    document.getElementById('resultado').innerHTML = `{mostrarMenu()}`;
     </script>
 </body>
 </html>
